@@ -53,7 +53,12 @@ class QuizInterface:
     def true_pressed(self):
         self.give_feedback(self.quiz.check_answer("True"))
 
+    def false_pressed(self):
+        is_right = self.quiz.check_answer("False")
+        self.give_feedback(is_right)
+
    
+
 
 
 
