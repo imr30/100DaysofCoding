@@ -15,4 +15,4 @@ weather_params = {
     "lat": "YOUR LATITUDE",
     "lon": "YOUR LONGITUDE",
     "appid": api_key,
-    "exclude": "current,minutely,daily"
+    "exclude": "current,minutely,daily" 
