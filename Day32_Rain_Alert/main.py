@@ -11,3 +11,8 @@ api_key = os.environ.get("OWM_API_KEY")
 account_sid = "YOUR ACCOUNT SID"
 auth_token = os.environ.get("AUTH_TOKEN")
 
+weather_params = {
+    "lat": "YOUR LATITUDE",
+    "lon": "YOUR LONGITUDE",
+    "appid": api_key,
+    "exclude": "current,minutely,daily"
