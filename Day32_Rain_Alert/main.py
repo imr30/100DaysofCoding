@@ -15,4 +15,9 @@ weather_params = {
     "lat": "YOUR LATITUDE",
     "lon": "YOUR LONGITUDE",
     "appid": api_key,
-    "exclude": "current,minutely,daily" 
+    "exclude": "current,minutely,daily"
+}
+
+response = requests.get(OWM_Endpoint, params=weather_params)
+
+  
