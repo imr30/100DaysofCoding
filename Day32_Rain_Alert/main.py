@@ -26,4 +26,4 @@ weather_slice = weather_data["hourly"][:12]
 will_rain = False
 
 for hour_data in weather_slice:
-   
+    condition_code = hour_data["weather"][0]["id"]
