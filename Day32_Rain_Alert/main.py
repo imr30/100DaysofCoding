@@ -40,3 +40,5 @@ if will_rain:
         body="It's going to rain today. Remember to bring an ☔️",
         from_="YOUR TWILIO VIRTUAL NUMBER",
         to="YOUR TWILIO VERIFIED REAL NUMBER"
+    )
+    print(message.status)
