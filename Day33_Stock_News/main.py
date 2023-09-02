@@ -6,3 +6,5 @@ VERIFIED_NUMBER = "your own phone number verified with Twilio"
 
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
+
+STOCK_ENDPOINT = "https://www.alphavantage.co/query"
